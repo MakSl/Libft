@@ -11,7 +11,8 @@ ft_isdigit.c ft_memset.c ft_strchr.c ft_strlcat.c ft_strrchr.c \
 ft_isprint.c ft_putchar.c ft_strclr.c ft_strlen.c ft_strsplit.c \
 ft_itoa.c ft_putchar_fd.c ft_strcmp.c ft_strmap.c ft_strstr.c \
 ft_sort_params.c ft_sqrt.c ft_iterative_factorial.c ft_swap.c \
-ft_abs.c
+ft_abs.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c \
+ft_lstiter.c
 
 OBJECTS = ft_memalloc.o ft_putendl.o ft_strcpy.o ft_strmapi.o ft_strsub.o \
 ft_memccpy.o ft_putendl_fd.o ft_strdel.o ft_strncat.o ft_strtrim.o \
@@ -24,7 +25,8 @@ ft_isdigit.o ft_memset.o ft_strchr.o ft_strlcat.o ft_strrchr.o \
 ft_isprint.o ft_putchar.o ft_strclr.o ft_strlen.o ft_strsplit.o \
 ft_itoa.o ft_putchar_fd.o ft_strcmp.o ft_strmap.o ft_strstr.o \
 ft_sort_params.o ft_sqrt.o ft_iterative_factorial.o ft_swap.o \
-ft_abs.o
+ft_abs.o ft_lstnew.o ft_lstdelone.o ft_lstdel.o ft_lstadd.o \
+ft_lstiter.o
 
 all: $(NAME)
 
